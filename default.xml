@@ -15,6 +15,14 @@
            fetch="https://github.com/AOSP-RRO"
 	   revision="marshmallow" />
 
+  <remote  name="crd"
+           fetch="https://github.com/Cardinal-AOSP"
+     revision="crd6.0" />
+
+  <remote  name="bb"
+           fetch="https://bitbucket.org/"
+           revision="master" />
+
   <default revision="refs/tags/android-6.0.1_r46"
            remote="aosp"
            sync-j="8"
@@ -22,18 +30,11 @@
            sync-f="true"
            sync-q="true" />
 
- 
 <!-- AOSP-RRO -->
-
   <project name="platform_art" path="art" groups="pdk" remote="rro" />
-  <project name="platform_build" path="build" groups="pdk,tradefed" remote="rro" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="build.sh" dest="build.sh" />
-  </project>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="rro" />
   <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" />
   <project name="platform_external_dhcpcd" path="external/dhcpcd" remote="rro" />
-  <project name="platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="rro" />
   <project name="platform_frameworks_av" path="frameworks/av" groups="pdk" remote="rro" />
   <project name="platform_frameworks_native" path="frameworks/native" groups="pdk" remote="rro" />
   <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
@@ -57,7 +58,6 @@
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
   <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="rro" />
   <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />
   <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="rro" />
   <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="rro" />
@@ -76,9 +76,7 @@
   <project name="platform_system_keymaster" path="system/keymaster" remote="rro" />
   <project name="platform_system_security" path="system/security" remote="rro" />
   <project name="platform_system_vold" path="system/vold" groups="pdk" remote="rro" />
-  <project name="platform_vendor_aosp" path="vendor/aosp" remote="rro" />
-  <project name="manifest" path="manifest" remote="rro" />
-  
+
 <!-- CyanogenMod -->
   <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
@@ -534,4 +532,39 @@
   <!-- qrngd -->
   <project path="external/qrngd" name="android_external_qrngd" remote="slim" />
 
+  <!-- CARDINAL-AOSP BEGINS-->
+  <project name="build" path="build" remote="crd" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project name="frameworks_base" path="frameworks/base" remote="crd" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
+  <project name="vendor_cardinal" path="vendor/cardinal" remote="crd" />
+  <project name="manifest" path="manifest" remote="rro" />
+  <project path="OTA" name="Cardinal-Devices/OTA" remote="github" revision="crd6.0" >
+    <copyfile src="ota_conf" dest="ota_conf" />
+  </project>
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/CardinalOTA" name="packages_apps_CardinalOTA" remote="crd" />
+    <!-- CARDINAL-AOSP ENDS -->
+  
+  <!-- UBERTC BEGINS -->
+  <!-- arm-eabi -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-uber" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x-uber" name="DespairFactor/arm-eabi-5.x" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-uber" name="UBERTC/arm-eabi-6.0" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0-uber" name="UBERTC/arm-eabi-7.0" remote="bb" />
+  
+  <!-- aarch64-linux-android -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-uber" name="UBERTC/aarch64-linux-android-4.9" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="DespairFactor/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel" name="DespairFactor/aarch64-linux-android-5.x-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel" name="DespairFactor/aarch64-linux-android-6.x-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0-kernel" name="DespairFactor/aarch64-linux-android-7.0-kernel" remote="bb" revision="master" />
+
+  <!-- arm-linux-androideabi -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-uber" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-uber" name="DespairFactor/arm-linux-androideabi-5.x" remote="bb" revision="master" />
+  <!-- UBERTC ENDS -->
 </manifest>
