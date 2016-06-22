@@ -524,7 +524,6 @@
   <project path="OTA" name="Cardinal-Devices/OTA" remote="github" revision="crd6.0" >
     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-13.0" />
   <project path="packages/apps/CardinalOTA" name="packages_apps_CardinalOTA" remote="crd" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="crd" />
