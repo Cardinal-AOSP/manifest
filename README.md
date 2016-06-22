@@ -1,5 +1,5 @@
 Cardinal-AOSP
-========================
+===================
 
 To initialize your local repository using the CARDINAL-AOSP trees, use a command like this:
 ````bash

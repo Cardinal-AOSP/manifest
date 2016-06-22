@@ -45,16 +45,10 @@
   <project name="platform_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="rro" />
   <project name="platform_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="rro" />
   <project name="platform_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="rro" />
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="rro" />
   <project name="platform_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="rro" />
-  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="rro" />
-  <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="rro" />
-  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="rro" />
   <project name="platform_packages_apps_Email" path="packages/apps/Email" remote="rro" />
   <project name="platform_packages_apps_Exchange" path="packages/apps/Exchange" remote="rro" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />
-  <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="rro" />
-  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="rro" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
   <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />
@@ -64,12 +58,9 @@
   <project name="platform_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="rro" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="rro" />
   <project name="platform_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" groups="pdk-cw-fs" remote="rro" />
-  <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="rro" />
   <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="rro" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="rro" />
   <project name="platform_packages_services_Mms" path="packages/services/Mms" remote="rro" />
-  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="rro" />
-  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="rro" />
   <project name="platform_system_bt" path="system/bt" remote="rro" />
   <project name="platform_system_core" path="system/core" groups="pdk" remote="rro" />
   <project name="platform_system_extras" path="system/extras"  groups="pdk" remote="rro" />
@@ -116,7 +107,6 @@
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
-  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" path="hardware/qcom/bt" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-13.0" />
@@ -438,7 +428,6 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
@@ -446,10 +435,7 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="slim" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
@@ -471,12 +457,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
-  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
-  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" groups="pdk-fs" />
-  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" groups="pdk-fs" />
-  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
@@ -545,6 +526,20 @@
   </project>
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-13.0" />
   <project path="packages/apps/CardinalOTA" name="packages_apps_CardinalOTA" remote="crd" />
+  <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="crd" />
+  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="crd" />
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="crd" />
+  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="crd" />
+  <project name="packages_apps_InCallUI" path="packages/apps/InCallUI" remote="crd" />
+  <project path="frameworks/support" name="frameworks_support" remote="crd" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="crd" />
+  <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="crd" />
+  <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="crd" />
+  <project name="UBERMALLOW/packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="master" />
+  <project path="packages/apps/DeskClock" name="UBERMALLOW/packages_apps_DeskClock" remote="github" revision="master" />
+  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="slim" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
     <!-- CARDINAL-AOSP ENDS -->
   
   <!-- UBERTC BEGINS -->
