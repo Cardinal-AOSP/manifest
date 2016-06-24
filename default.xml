@@ -36,7 +36,7 @@
   <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" />
   <project name="platform_external_dhcpcd" path="external/dhcpcd" remote="rro" />
   <project name="platform_frameworks_av" path="frameworks/av" groups="pdk" remote="rro" />
-  <project name="platform_frameworks_op t_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
+  <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="rro" groups="pdk" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="rro" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="rro" />
