@@ -518,7 +518,7 @@
   <project name="frameworks_base" path="frameworks/base" remote="crd" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
   <project name="vendor_cardinal" path="vendor/cardinal" remote="crd" />
-  <project name="manifest" path="manifest" remote="rro" />
+  <project name="manifest" path="manifest" remote="crd" />
   <project path="OTA" name="Cardinal-Devices/OTA" remote="github" revision="crd6.0" >
     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
