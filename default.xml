@@ -36,8 +36,7 @@
   <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" />
   <project name="platform_external_dhcpcd" path="external/dhcpcd" remote="rro" />
   <project name="platform_frameworks_av" path="frameworks/av" groups="pdk" remote="rro" />
-  <project name="platform_frameworks_native" path="frameworks/native" groups="pdk" remote="rro" />
-  <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
+  <project name="platform_frameworks_op t_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="rro" groups="pdk" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="rro" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="rro" />
@@ -434,7 +433,6 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="slim" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -539,6 +537,8 @@
   <project path="packages/apps/DeskClock" name="UBERMALLOW/packages_apps_DeskClock" remote="github" revision="master" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="slim" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="crd" />
+  <project name="frameworks_native" path="frameworks/native" remote="crd" />
     <!-- CARDINAL-AOSP ENDS -->
   
   <!-- UBERTC BEGINS -->
