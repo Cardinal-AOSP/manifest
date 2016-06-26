@@ -39,7 +39,6 @@
   <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="rro" groups="pdk" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="rro" />
-  <project name="platform_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="rro" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="rro" />
   <project name="platform_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="rro" />
   <project name="platform_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="rro" />
@@ -537,8 +536,9 @@
   <project path="packages/apps/DeskClock" name="UBERMALLOW/packages_apps_DeskClock" remote="github" revision="master" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="slim" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="crd" />
+  <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="mm6.0" />
   <project name="frameworks_native" path="frameworks/native" remote="crd" />
+  <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
     <!-- CARDINAL-AOSP ENDS -->
   
   <!-- UBERTC BEGINS -->
