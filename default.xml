@@ -13,24 +13,23 @@
 
   <remote  name="rro"
            fetch="https://github.com/AOSP-RRO"
-	   revision="marshmallow" />
+	         revision="marshmallow" />
 
   <remote  name="crd"
            fetch="https://github.com/Cardinal-AOSP"
-     revision="crd6.0" />
+           revision="crd6.0" />
 
   <remote  name="bb"
            fetch="https://bitbucket.org/"
            revision="master" />
 
-  <default revision="refs/tags/android-6.0.1_r46"
+  <default revision="refs/tags/android-6.0.1_r52"
            remote="aosp"
            sync-j="8"
            sync-c="true"
-           sync-f="true"
-           sync-q="true" />
+           sync-f="true" />
 
-<!-- AOSP-RRO -->
+  <!-- AOSP-RRO -->
   <project name="platform_art" path="art" groups="pdk" remote="rro" />
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="rro" />
   <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" />
