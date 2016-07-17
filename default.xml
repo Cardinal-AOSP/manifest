@@ -531,10 +531,10 @@
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="crd" />
   <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="crd" />
   <project name="UBERMALLOW/packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="master" />
-  <project path="packages/apps/DeskClock" name="UBERMALLOW/packages_apps_DeskClock" remote="github" revision="master" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="crd" revision="crd6.0" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="slim" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="mm6.0" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="crd" revision="crd6.0" />
   <project name="frameworks_native" path="frameworks/native" remote="crd" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="crd" />
