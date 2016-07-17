@@ -48,7 +48,6 @@
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
-  <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />
   <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />
   <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="rro" />
   <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="rro" />
@@ -538,6 +537,7 @@
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="mm6.0" />
   <project name="frameworks_native" path="frameworks/native" remote="crd" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
+  <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="crd" />
     <!-- CARDINAL-AOSP ENDS -->
   
   <!-- UBERTC BEGINS -->
