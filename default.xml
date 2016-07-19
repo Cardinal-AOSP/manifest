@@ -48,8 +48,6 @@
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
-  <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />
-  <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="rro" />
   <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="rro" />
   <project name="platform_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="rro" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="rro" />
@@ -419,7 +417,6 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="slim" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
@@ -538,6 +535,10 @@
   <project name="frameworks_native" path="frameworks/native" remote="crd" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="crd" />
+  <project name="packages_apps_Snap" path="packages/apps/Snap" remote="crd" />
+  <project name="packages_apps_Stk" path="packages/apps/Stk" remote="crd" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="crd" />
+
     <!-- CARDINAL-AOSP ENDS -->
   
   <!-- UBERTC BEGINS -->
