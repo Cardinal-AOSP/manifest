@@ -32,7 +32,7 @@
   <!-- AOSP-RRO -->
   <project name="platform_art" path="art" groups="pdk" remote="rro" />
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="rro" />
-  <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" />
+  <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="oms" />
   <project name="platform_external_dhcpcd" path="external/dhcpcd" remote="rro" />
   <project name="platform_frameworks_av" path="frameworks/av" groups="pdk" remote="rro" />
   <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
