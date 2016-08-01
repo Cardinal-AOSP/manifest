@@ -541,6 +541,9 @@
 
     <!-- CARDINAL-AOSP ENDS -->
   
+  <!-- Masquerade -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+
   <!-- UBERTC BEGINS -->
   <!-- arm-eabi -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-uber" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" />
