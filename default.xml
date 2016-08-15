@@ -535,7 +535,6 @@
   <project name="frameworks_native" path="frameworks/native" remote="crd" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="crd" />
-  <project name="packages_apps_Snap" path="packages/apps/Snap" remote="crd" />
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="crd" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="crd" />
 
