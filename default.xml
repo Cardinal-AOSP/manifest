@@ -517,6 +517,7 @@
   <project path="OTA" name="Cardinal-Devices/OTA" remote="github" revision="crd6.0" >
     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
+  <project path="external/DUtils" name="external_DUtils" remote="crd" />
   <project path="packages/apps/CardinalOTA" name="packages_apps_CardinalOTA" remote="crd" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="crd" />
@@ -530,6 +531,7 @@
   <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="crd" />
   <project name="UBERMALLOW/packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="master" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="crd" revision="crd6.0" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="crd" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="slim" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="crd" revision="crd6.0" />
