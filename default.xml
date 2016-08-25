@@ -101,6 +101,7 @@
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_cyanogen" path="hardware/cyanogen" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" path="hardware/qcom/bt" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-13.0" />
@@ -537,10 +538,10 @@
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="crd" />
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="crd" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="crd" />
-
-    <!-- CARDINAL-AOSP ENDS -->
+  <!-- CARDINAL-AOSP ENDS -->
   
-  <!-- Masquerade -->
+  <!-- Substratum -->
+  <project name="TurboROM/packages_apps_Substratum" path="packages/apps/Substratum" remote="github" revision="m" /> 
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
   <!-- UBERTC BEGINS -->
