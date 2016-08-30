@@ -565,4 +565,17 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-uber" name="DespairFactor/arm-linux-androideabi-5.x" remote="bb" revision="master" />
   <!-- UBERTC ENDS -->
+
+  <!-- Linaro -->
+  <!-- arm-eabi -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="DespairFactor/arm-eabi-4.9" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x-linaro" name="DespairFactor/arm-eabi-5.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x-linaro" name="DespairFactor/arm-eabi-6.x" remote="bb" />
+
+  <!-- aarch64-linux-android -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel-linaro" name="DespairFactor/aarch64-linux-android-4.9-kernel-linaro" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel-linaro" name="DespairFactor/aarch64-linux-android-5.x-kernel-linaro" remote="bb"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel-linaro" name="DespairFactor/aarch64-linux-android-6.x-kernel-linaro" remote="bb" />
+  <!-- Linaro ENDS -->
+<!-- End Toolchains -->
 </manifest>
