@@ -539,6 +539,7 @@
   <project name="hardware_ril" path="hardware/ril" remote="crd" revision="crd6.0" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="crd" revision="crd6.0-caf" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="crd" revision="crd6.0" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="crd" revision="crd6.0" />
   <!-- CARDINAL-AOSP ENDS -->
   
   <!-- Substratum -->
