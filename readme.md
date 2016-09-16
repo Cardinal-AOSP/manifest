@@ -1,7 +1,7 @@
-Cardinal-AOSP
-===================
+<img src="https://raw.githubusercontent.com/Cardinal-AOSP/manifest/n7/crd.png">
+=============
 
-To initialize your local repository using the Cardinal-AOSP-AOSP trees, use a command like this:
+To initialize your local repository using the Cardinal-AOSP trees, use a command like this:
 
 To sync Cardinal-AOSP
 ````bash
