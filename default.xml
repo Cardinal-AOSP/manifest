@@ -25,6 +25,7 @@
   <!-- CARDINAL-AOSP -->
   <project name="build" path="build" remote="crd" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="wings.sh" dest="wings.sh" />
   </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="crd" />
   <project path="frameworks/av" name="frameworks_av"  remote="crd" />

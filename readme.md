@@ -11,3 +11,15 @@ Then to sync up:
 ````bash
 repo sync
 ```
+Finally to build:
+````bash
+./wings.sh device_codename
+```
+Example:
+````bash
+./wings.sh kenzo
+```
+Make Commands:
+````bash
+mka InitiateWings, mka cardinal, mka otapackage
+```
