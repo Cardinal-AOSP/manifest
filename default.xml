@@ -38,9 +38,11 @@
   </project>
   <project path="packages/apps/CardinalOTA" name="packages_apps_CardinalOTA" remote="crd" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="crd" />
+  <project path="packages/apps/Wings" name="packages_apps_Wings" remote="crd" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="crd" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="crd" />
   <project path="system/core" name="system_core"  remote="crd" />
+  <project path="system/extras" name="system_extras" remote="crd" />
   <project name="vendor_cardinal" path="vendor/cardinal" remote="crd" />
   <!-- CARDINAL-AOSP -->
 
@@ -61,7 +63,6 @@
   <project path="bionic" name="platform_bionic" groups="pdk" remote="rro" />
   <project path="art" name="platform_art" groups="pdk" remote="rro" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="rro" />
-  <project path="system/extras" name="platform_system_extras" remote="rro" />
   <project path="system/media" name="platform_system_media" remote="rro" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="rro" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="rro" />
