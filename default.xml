@@ -27,7 +27,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="wings.sh" dest="wings.sh" />
   </project>
-  <project path="bootable/recovery" name="bootable_recovery" remote="crd" />
+  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="ng7.0" />
   <project path="frameworks/av" name="frameworks_av"  remote="crd" />
   <project path="frameworks/base" name="frameworks_base"  remote="crd" />
   <project path="frameworks/native" name="frameworks_native" remote="crd" />
