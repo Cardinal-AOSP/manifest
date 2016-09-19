@@ -49,6 +49,10 @@
   <project name="vendor_cardinal" path="vendor/cardinal" remote="crd" />
   <!-- CARDINAL-AOSP -->
 
+  <!-- Masquerade -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <!-- Masquerade -->
+
   <!-- AOSP-OMS -->
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="rro" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
