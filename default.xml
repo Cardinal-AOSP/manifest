@@ -34,7 +34,6 @@
   <!-- AOSP-RRO -->
   <project name="platform_art" path="art" groups="pdk" remote="rro" />
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="rro" />
-  <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" revision="oms" />
   <project name="platform_external_dhcpcd" path="external/dhcpcd" remote="rro" />
   <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="rro" groups="pdk" />
@@ -542,6 +541,7 @@
   <project name="system_core" path="system/core" remote="crd" />
   <project name="packages_apps_Email" path="packages/apps/Email" remote="crd" />
   <project name="packages_apps_Exchange" path="packages/apps/Exchange" remote="crd" />
+  <project name="external_sepolicy" path="external/sepolicy" remote="crd" />
   <!-- CARDINAL-AOSP ENDS -->
 
   <!-- Substratum -->
