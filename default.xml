@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           sync-c="true" />
 
  <remote  name="github"
            fetch="https://github.com/"
-           review="review.cyanogenmod.org" />
+           review="review.cyanogenmod.org"
+           sync-c="true" />
 
   <remote  name="slim"
            fetch="https://github.com/SlimRoms"
-           revision="mm6.0" />
+           revision="mm6.0"
+           sync-c="true" />
 
   <remote  name="rro"
            fetch="https://github.com/AOSP-RRO"
@@ -23,10 +26,9 @@
            fetch="https://bitbucket.org/"
            revision="master" />
 
-  <default revision="refs/tags/android-6.0.1_r61"
+  <default revision="refs/tags/android-6.0.1_r66"
            remote="aosp"
            sync-j="8"
-           sync-c="true"
            sync-f="true" />
 
   <!-- AOSP-RRO -->
@@ -34,15 +36,12 @@
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="rro" />
   <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" revision="oms" />
   <project name="platform_external_dhcpcd" path="external/dhcpcd" remote="rro" />
-  <project name="platform_frameworks_av" path="frameworks/av" groups="pdk" remote="rro" />
   <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="rro" groups="pdk" />
   <project name="platform_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="rro" />
   <project name="platform_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="rro" />
   <project name="platform_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="rro" />
   <project name="platform_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="rro" />
-  <project name="platform_packages_apps_Email" path="packages/apps/Email" remote="rro" />
-  <project name="platform_packages_apps_Exchange" path="packages/apps/Exchange" remote="rro" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
@@ -53,8 +52,6 @@
   <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="rro" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="rro" />
   <project name="platform_packages_services_Mms" path="packages/services/Mms" remote="rro" />
-  <project name="platform_system_bt" path="system/bt" remote="rro" />
-  <project name="platform_system_core" path="system/core" groups="pdk" remote="rro" />
   <project name="platform_system_extras" path="system/extras"  groups="pdk" remote="rro" />
   <project name="platform_system_keymaster" path="system/keymaster" remote="rro" />
   <project name="platform_system_security" path="system/security" remote="rro" />
@@ -66,7 +63,7 @@
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-13.0" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" /> 
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-13.0" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-13.0" />
   <project path="libcore" name="CyanogenMod/android_libcore" groups="pdk" remote="github" revision="cm-13.0" />
@@ -504,6 +501,7 @@
   <project name="build" path="build" remote="crd" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="frameworks_av" path="frameworks/av"  remote="crd" />
   <project name="frameworks_base" path="frameworks/base" remote="crd" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
   <project name="vendor_cardinal" path="vendor/cardinal" remote="crd" />
@@ -540,10 +538,14 @@
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="crd" revision="crd6.0-caf" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="crd" revision="crd6.0" />
   <project name="device_qcom_common" path="device/qcom/common" remote="crd" revision="crd6.0" />
+  <project name="system_bt" path="system/bt" remote="crd" />
+  <project name="system_core" path="system/core" remote="crd" />
+  <project name="packages_apps_Email" path="packages/apps/Email" remote="crd" />
+  <project name="packages_apps_Exchange" path="packages/apps/Exchange" remote="crd" />
   <!-- CARDINAL-AOSP ENDS -->
-  
+
   <!-- Substratum -->
-  <project name="TurboROM/packages_apps_Substratum" path="packages/apps/Substratum" remote="github" revision="m" /> 
+  <project name="TurboROM/packages_apps_Substratum" path="packages/apps/Substratum" remote="github" revision="m" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
   <!-- UBERTC BEGINS -->
@@ -553,7 +555,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x-uber" name="DespairFactor/arm-eabi-5.x" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-uber" name="UBERTC/arm-eabi-6.0" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0-uber" name="UBERTC/arm-eabi-7.0" remote="bb" />
-  
+
   <!-- aarch64-linux-android -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-uber" name="UBERTC/aarch64-linux-android-4.9" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="DespairFactor/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
