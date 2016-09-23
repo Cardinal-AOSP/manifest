@@ -545,7 +545,6 @@
   <!-- CARDINAL-AOSP ENDS -->
 
   <!-- Substratum -->
-  <project name="TurboROM/packages_apps_Substratum" path="packages/apps/Substratum" remote="github" revision="m" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
   <!-- UBERTC BEGINS -->
