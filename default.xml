@@ -413,9 +413,8 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/FMRadio" name="SlimRoms/packages_apps_FMRadio" remote="github" revision="mm6.0" />	
+  <project path="packages/apps/FMRadio" name="SlimRoms/packages_apps_FMRadio" remote="github" revision="mm6.0" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
@@ -526,6 +525,7 @@
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="crd" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="slim" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="crd" revision="crd6.0" />
   <project name="frameworks_native" path="frameworks/native" remote="crd" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
