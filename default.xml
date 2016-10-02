@@ -39,6 +39,7 @@
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="rro" groups="pdk" />
   <project name="platform_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="rro" />
   <project name="platform_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="rro" />
+  <project name="platform_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="rro" /> 
   <project name="platform_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="rro" />
   <project name="platform_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="rro" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />
@@ -97,6 +98,8 @@
   <project name="CyanogenMod/android_hardware_cyanogen" path="hardware/cyanogen" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" path="hardware/qcom/bt" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-13.0" /> 
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" groups="pdk" remote="github" revision="cm-13.0" /> 
   <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_system_netd" groups="pdk" path="system/netd" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_system_qcom" groups="qcom" path="system/qcom" remote="github" revision="cm-13.0" />
@@ -404,6 +407,7 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="slim" revision="mm6.0-caf" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="slim" />
@@ -533,10 +537,6 @@
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="crd" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="crd" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="crd" />
-  <project name="hardware_ril" path="hardware/ril-caf" remote="crd" revision="crd6.0-caf" />
-  <project name="hardware_ril" path="hardware/ril" remote="crd" revision="crd6.0" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="crd" revision="crd6.0-caf" />
-  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="crd" revision="crd6.0" />
   <project name="device_qcom_common" path="device/qcom/common" remote="crd" revision="crd6.0" />
   <project name="system_bt" path="system/bt" remote="crd" />
   <project name="system_core" path="system/core" remote="crd" />
