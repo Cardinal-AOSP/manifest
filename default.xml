@@ -98,7 +98,8 @@
   <project name="CyanogenMod/android_hardware_cyanogen" path="hardware/cyanogen" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" path="hardware/qcom/bt" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-13.0" /> 
+  <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="cm-13.0-caf" />
   <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" groups="pdk" remote="github" revision="cm-13.0" /> 
   <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_system_netd" groups="pdk" path="system/netd" remote="github" revision="cm-13.0" />
@@ -407,7 +408,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="slim" revision="mm6.0-caf" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="slim" />
