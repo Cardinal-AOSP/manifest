@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Audio -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/default" revision="cm-14.1" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" revision="cm-14.1-caf-8084" remote="github"  />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" revision="cm-14.1-caf-8916" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" revision="cm-14.1-caf-8937" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" revision="cm-14.1-caf-8952" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="cm-14.1-caf-8960" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" revision="cm-14.1-caf-8974" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" revision="cm-14.1-caf-8994" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="cm-14.1-caf-8996" remote="github" />
+
+<!-- Camera -->
+  <remove-project name="platform/hardware/qcom/camera" />
+  <project name="LineageOS/android_hardware_qcom_camera" path="hardware/qcom/camera" revision="cm-14.1" remote="github" />
+
+<!-- Display -->
+  <remove-project name="platform/hardware/qcom/display" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display" revision="cm-14.1" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" revision="cm-14.1-caf-8084" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" revision="cm-14.1-caf-8916" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" revision="cm-14.1-caf-8937" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" revision="cm-14.1-caf-8952" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="cm-14.1-caf-8960" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="cm-14.1-caf-8974" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" revision="cm-14.1-caf-8994" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="cm-14.1-caf-8996" remote="github" />
+
+<!-- Gps -->
+  <remove-project name="platform/hardware/qcom/gps" />
+  <project name="LineageOS/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="cm-14.1" remote="github" />
+
+<!-- Media -->
+  <remove-project name="platform/hardware/qcom/media" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-14.1" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" revision="cm-14.1-caf-8084" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" revision="cm-14.1-caf-8916" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" revision="cm-14.1-caf-8937" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" revision="cm-14.1-caf-8952" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-14.1-caf-8960" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="cm-14.1-caf-8974" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" revision="cm-14.1-caf-8994" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" revision="cm-14.1-caf-8996" remote="github" />
+</manifest>
