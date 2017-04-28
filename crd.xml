@@ -35,7 +35,6 @@
   <project name="build_kati" path="build/kati" remote="crd"/>
   <remove-project name="platform/development" />
   <project name="development" path="development" remote="crd"/>
-  <project name="vendor_cardinal" path="vendor/cardinal" remote="crd"/>
 
 <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -51,6 +50,7 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
   <project name="frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="crd" />
 
+<!-- External -->
   <remove-project name="platform/external/ipsec-tools" />
   <project name="external_ipsec-tools" path="external/ipsec-tools" remote="crd" />
   <remove-project name="platform/external/skia" />
@@ -78,6 +78,8 @@
 <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <project name="packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="crd" />
   <remove-project name="platform/packages/apps/Contacts" />
   <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="crd" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
@@ -92,6 +94,12 @@
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="crd" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="crd" />
+
+<!-- Prebuilts -->
+    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+    <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="crd" clone-depth="1" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+    <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="crd" clone-depth="1" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/MediaProvider" />
@@ -121,11 +129,9 @@
   <project name="system_vold" path="system/vold" remote="crd" />
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="crd"/>
 
-<!-- Prebuilts -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="crd" clone-depth="1" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="crd" clone-depth="1" />
+<!-- Vendor -->
+  <project name="vendor_cardinal" path="vendor/cardinal" remote="crd"/>
+  <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="crd"/>
 
 <!-- Lineageos -->
   <project  name="Lineageos/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
@@ -137,6 +143,8 @@
   <project name="Lineageos/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
   <project name="Lineageos/android_external_htop" path="external/htop" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_external_libncurses" path="external/libncurses" revision="cm-14.1" remote="github" />
+  <project name="LineageOS/android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" revision="cm-14.1" remote="github" />
+  <project name="LineageOS/android_external_libnfnetlink" path="external/libnfnetlink" revision="cm-14.1" remote="github" />
   <remove-project name="platform/external/libnfc-nci" />
   <project name="Lineageos/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/libnfc-nxp" />
@@ -158,6 +166,7 @@
   <project name="Lineageos/android_hardware_ti_omap4" path="hardware/ti/omap4" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_hardware_ti_wlan" path="hardware/ti/wlan" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_hardware_ti_wpan" path="hardware/ti/wpan" revision="cm-14.1" remote="github" />
+  <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="github" revision="cm-14.1" />
   <project name="Lineageos/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_vendor_qcom_opensource_time-services" path="vendor/qcom/opensource/time-services" revision="cm-14.1" remote="github" />
