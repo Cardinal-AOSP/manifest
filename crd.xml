@@ -36,6 +36,16 @@
   <remove-project name="platform/development" />
   <project name="development" path="development" remote="crd"/>
 
+<!-- External -->
+  <remove-project name="platform/external/ipsec-tools" />
+  <project name="external_ipsec-tools" path="external/ipsec-tools" remote="crd" />
+  <remove-project name="platform/external/skia" />
+  <project name="external_skia" path="external/skia" remote="crd"/>
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="crd"/>
+  <remove-project name="platform/external/zlib"  />
+  <project name="external_zlib" path="external/zlib" remote="crd" />
+
 <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project name="frameworks_av" path="frameworks/av" remote="crd"/>
@@ -49,16 +59,8 @@
   <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="crd" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <project name="frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="crd" />
-
-<!-- External -->
-  <remove-project name="platform/external/ipsec-tools" />
-  <project name="external_ipsec-tools" path="external/ipsec-tools" remote="crd" />
-  <remove-project name="platform/external/skia" />
-  <project name="external_skia" path="external/skia" remote="crd"/>
-  <remove-project name="platform/external/wpa_supplicant_8" />
-  <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="crd"/>
-  <remove-project name="platform/external/zlib"  />
-  <project name="external_zlib" path="external/zlib" remote="crd" />
+  <remove-project name="platform/frameworks/rs" />
+  <project name="frameworks_rs" path="frameworks/rs" remote="crd"/>
 
 <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
@@ -70,7 +72,7 @@
   <project name="hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="crd" revision="n-mr2-caf" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="crd" />
-  <project name="hardware_qcom_wlan" pathl="hardware/qcom/wlan-caf" remote="crd" revision="n-mr2-caf" />
+  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="crd" revision="n-mr2-caf" />
   <remove-project name="platform/hardware/ril" />
   <project name="hardware_ril" path="hardware/ril" remote="crd" />
   <project name="hardware_ril" path="hardware/ril-caf" remote="crd" revision="n-mr2-caf"/>
@@ -78,28 +80,18 @@
 <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
-  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
-  <project name="packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="crd" />
-  <remove-project name="platform/packages/apps/Contacts" />
-  <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="crd" />
-  <remove-project name="platform/packages/apps/ContactsCommon" />
-  <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="crd" />
-  <remove-project name="platform/packages/apps/PhoneCommon" />
-  <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="crd" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="crd" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="crd" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
-  <remove-project name="platform/packages/apps/Dialer" />
-  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="crd" />
-  <remove-project name="platform/packages/apps/Messaging" />
-  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="crd" />
 
 <!-- Prebuilts -->
-    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-    <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="crd" clone-depth="1" />
-    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-    <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="crd" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="crd" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="crd" clone-depth="1" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/MediaProvider" />
@@ -112,6 +104,7 @@
   <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="crd" />
   <remove-project name="platform/packages/services/Telephony" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="crd" />
+
 
 <!-- System -->
   <remove-project name="platform/system/bt" />
@@ -133,15 +126,16 @@
   <project name="vendor_cardinal" path="vendor/cardinal" remote="crd"/>
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="crd"/>
 
-<!-- Lineageos -->
-  <project  name="Lineageos/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+<!-- LineageOS -->
+  <project name="Lineageos/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="Lineageos/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" revision="cm-14.1" remote="github" />
   <remove-project name="platform/external/e2fsprogs" />
-  <project name="Lineageos/android_external_e2fsprogs" path="external/e2fsprogs" groups="pdk" remote="github" revision="cm-14.1" />
+  <project name="Lineageos/android_external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="cm-14.1" />
   <project name="Lineageos/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/flac" />
   <project name="Lineageos/android_external_flac" path="external/flac" remote="github" revision="cm-14.1" />
   <project name="Lineageos/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
-  <project name="Lineageos/android_external_htop" path="external/htop" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_external_libncurses" path="external/libncurses" revision="cm-14.1" remote="github" />
   <project name="LineageOS/android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" revision="cm-14.1" remote="github" />
   <project name="LineageOS/android_external_libnfnetlink" path="external/libnfnetlink" revision="cm-14.1" remote="github" />
@@ -152,8 +146,6 @@
   <project name="Lineageos/android_external_libphonenumbergoogle" path="external/libphonenumbergoogle" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_external_ntfs-3g" path="external/ntfs-3g" revision="cm-14.1" remote="github" />
   <remove-project name="platform/external/openssh" />
-  <project name="Lineageos/android_external_openssh" path="external/openssh" revision="cm-14.1" remote="github" />
-  <project name="Lineageos/android_external_rsync" path="external/rsync" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/tinyalsa" />
   <project name="Lineageos/android_external_tinyalsa" path="external/tinyalsa" remote="github" revision="cm-14.1" />
@@ -163,9 +155,15 @@
   <project name="Lineageos/android_external_toybox" path="external/toybox" remote="github" revision="cm-14.1" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <project name="Lineageos/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" revision="cm-14.1" remote="github" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <project name="Lineageos/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_hardware_ti_omap4" path="hardware/ti/omap4" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_hardware_ti_wlan" path="hardware/ti/wlan" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_hardware_ti_wpan" path="hardware/ti/wpan" revision="cm-14.1" remote="github" />
+  <remove-project name="platform/system/keymaster" />
+  <project name="Lineageos/android_system_keymaster" path="system/keymaster" revision="cm-14.1" remote="github" />
+  <remove-project name="platform/system/netd" />
+  <project name="Lineageos/android_system_netd" path="system/netd" revision="cm-14.1" remote="github" />
   <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="github" revision="cm-14.1" />
   <project name="Lineageos/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" revision="cm-14.1" remote="github" />
@@ -213,7 +211,6 @@
 <remove-project name="platform/packages/apps/Browser2" />
 <remove-project name="platform/packages/apps/Calculator" />
 <remove-project name="platform/packages/apps/Calendar" />
-<remove-project name="platform/packages/apps/Email" />
 <remove-project name="platform/packages/apps/ExactCalculator" />
 <remove-project name="platform/packages/apps/Gallery" />
 <remove-project name="platform/packages/apps/Gallery2" />
