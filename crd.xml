@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default revision="refs/tags/android-7.1.2_r6"
+  <default revision="refs/tags/android-7.1.2_r11"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
@@ -40,6 +40,12 @@
   <remove-project name="platform/external/ipsec-tools" />
   <project name="external_ipsec-tools" path="external/ipsec-tools" remote="crd" />
   <remove-project name="platform/external/skia" />
+  <project name="external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="crd" />
+  <remove-project name="platform/external/libnfc-nci" />
+  <project name="external_libnfc-nci" path="external/libnfc-nci" remote="crd"/>
+  <remove-project name="platform/external/libnfc-nxp" />
+  <project name="external_libnfc-nxp" path="external/libnfc-nxp" remote="crd"/>
+  <project name="external_libnfnetlink" path="external/libnfnetlink" remote="crd" />
   <project name="external_skia" path="external/skia" remote="crd"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="crd"/>
@@ -132,17 +138,13 @@
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" revision="cm-14.1" remote="github" />
   <remove-project name="platform/external/e2fsprogs" />
   <project name="Lineageos/android_external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="cm-14.1" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <project name="Lineageos/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.1" />
   <project name="Lineageos/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/flac" />
   <project name="Lineageos/android_external_flac" path="external/flac" remote="github" revision="cm-14.1" />
   <project name="Lineageos/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
   <project name="Lineageos/android_external_libncurses" path="external/libncurses" revision="cm-14.1" remote="github" />
-  <project name="LineageOS/android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" revision="cm-14.1" remote="github" />
-  <project name="LineageOS/android_external_libnfnetlink" path="external/libnfnetlink" revision="cm-14.1" remote="github" />
-  <remove-project name="platform/external/libnfc-nci" />
-  <project name="Lineageos/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-14.1" />
-  <remove-project name="platform/external/libnfc-nxp" />
-  <project name="Lineageos/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="cm-14.1" />
   <project name="Lineageos/android_external_libphonenumbergoogle" path="external/libphonenumbergoogle" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_external_ntfs-3g" path="external/ntfs-3g" revision="cm-14.1" remote="github" />
   <remove-project name="platform/external/openssh" />
