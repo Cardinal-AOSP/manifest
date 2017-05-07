@@ -37,15 +37,17 @@
   <project name="development" path="development" remote="crd"/>
 
 <!-- External -->
+  <remove-project name="platform/external/boringssl" />
+  <project name="external_boringssl" path="external/boringssl" remote="crd"/>
   <remove-project name="platform/external/ipsec-tools" />
   <project name="external_ipsec-tools" path="external/ipsec-tools" remote="crd" />
-  <remove-project name="platform/external/skia" />
   <project name="external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="crd" />
   <remove-project name="platform/external/libnfc-nci" />
   <project name="external_libnfc-nci" path="external/libnfc-nci" remote="crd"/>
   <remove-project name="platform/external/libnfc-nxp" />
   <project name="external_libnfc-nxp" path="external/libnfc-nxp" remote="crd"/>
   <project name="external_libnfnetlink" path="external/libnfnetlink" remote="crd" />
+  <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="crd"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="crd"/>
@@ -127,11 +129,11 @@
   <project name="system_sepolicy" path="system/sepolicy" remote="crd" />
   <remove-project name="platform/system/vold" />
   <project name="system_vold" path="system/vold" remote="crd" />
-  <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="crd"/>
 
 <!-- Vendor -->
   <project name="vendor_cardinal" path="vendor/cardinal" remote="crd"/>
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="crd"/>
+  <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="crd"/>
   <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="crd" />
   <project name="vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="crd" />
   <project name="vendor_qcom_opensource_time-services" path="vendor/qcom/opensource/time-services" remote="crd" />
@@ -165,6 +167,7 @@
   <project name="Lineageos/android_hardware_ti_omap4" path="hardware/ti/omap4" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_hardware_ti_wlan" path="hardware/ti/wlan" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_hardware_ti_wpan" path="hardware/ti/wpan" revision="cm-14.1" remote="github" />
+  <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
   <remove-project name="platform/system/keymaster" />
   <project name="Lineageos/android_system_keymaster" path="system/keymaster" revision="cm-14.1" remote="github" />
   <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="github" revision="cm-14.1" />
