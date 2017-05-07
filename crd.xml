@@ -111,7 +111,6 @@
   <remove-project name="platform/packages/services/Telephony" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="crd" />
 
-
 <!-- System -->
   <remove-project name="platform/system/bt" />
   <project name="system_bt" path="system/bt" remote="crd" />
@@ -121,6 +120,8 @@
   <project name="system_extras" path="system/extras" remote="crd" />
   <remove-project name="platform/system/media" />
   <project name="system_media" path="system/media" remote="crd" />
+  <remove-project name="platform/system/netd" />
+  <project name="system_netd" path="system/netd" remote="crd" />
   <project name="system_qcom" path="vendor/qcom/opensource/softap" remote="crd"/>
   <remove-project name="platform/system/sepolicy" />
   <project name="system_sepolicy" path="system/sepolicy" remote="crd" />
@@ -131,6 +132,9 @@
 <!-- Vendor -->
   <project name="vendor_cardinal" path="vendor/cardinal" remote="crd"/>
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="crd"/>
+  <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="crd" />
+  <project name="vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="crd" />
+  <project name="vendor_qcom_opensource_time-services" path="vendor/qcom/opensource/time-services" remote="crd" />
 
 <!-- LineageOS -->
   <project name="Lineageos/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
@@ -147,7 +151,6 @@
   <project name="Lineageos/android_external_libncurses" path="external/libncurses" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_external_libphonenumbergoogle" path="external/libphonenumbergoogle" revision="cm-14.1" remote="github" />
   <project name="Lineageos/android_external_ntfs-3g" path="external/ntfs-3g" revision="cm-14.1" remote="github" />
-  <remove-project name="platform/external/openssh" />
   <project name="Lineageos/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/tinyalsa" />
   <project name="Lineageos/android_external_tinyalsa" path="external/tinyalsa" remote="github" revision="cm-14.1" />
@@ -164,12 +167,7 @@
   <project name="Lineageos/android_hardware_ti_wpan" path="hardware/ti/wpan" revision="cm-14.1" remote="github" />
   <remove-project name="platform/system/keymaster" />
   <project name="Lineageos/android_system_keymaster" path="system/keymaster" revision="cm-14.1" remote="github" />
-  <remove-project name="platform/system/netd" />
-  <project name="Lineageos/android_system_netd" path="system/netd" revision="cm-14.1" remote="github" />
   <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="github" revision="cm-14.1" />
-  <project name="Lineageos/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" revision="cm-14.1" remote="github" />
-  <project name="Lineageos/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" revision="cm-14.1" remote="github" />
-  <project name="Lineageos/android_vendor_qcom_opensource_time-services" path="vendor/qcom/opensource/time-services" revision="cm-14.1" remote="github" />
 
 <!-- Exclude these Repo's from syncing -->
 <remove-project name="device/asus/fugu"  />
