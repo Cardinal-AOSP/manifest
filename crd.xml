@@ -92,6 +92,10 @@
 <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="crd" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
+  <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="crd" />
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="crd" />
   <remove-project name="platform/packages/apps/Launcher3" />
