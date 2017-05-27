@@ -102,6 +102,8 @@
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crd" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="crd" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="crd" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="crd" />
   <remove-project name="platform/packages/apps/Settings" />
