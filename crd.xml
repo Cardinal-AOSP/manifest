@@ -237,4 +237,5 @@
 <remove-project name="platform/packages/apps/Music" />
 <remove-project name="platform/packages/apps/MusicFX" />
 <remove-project name="platform/packages/apps/QuickSearchBox" />
+<remove-project name="platform/hardware/qcom/power" />
 </manifest>
