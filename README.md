@@ -18,7 +18,7 @@ To initialize your local repository, use this command:
 
 
 
-Time to sync source! [I love this part]:
+Time to sync the source! [I love this part]:
 
 	repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
 
@@ -26,4 +26,4 @@ Compiling the source!
 ---------------------
 	. build/envsetup.sh
 	lunch cardinal_$device-userdebug
-	mka bacon -j#
+	mka wings -j#
