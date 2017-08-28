@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <manifest>
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+
+  <default revision="refs/tags/android-8.0.0_r4"
+           remote="aosp"
+           sync-j="4" />
+
+  <remote  name="crd"
+           fetch="https://github.com/Cardinal-AOSP/"
+           revision="oreo" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="qcom"
+           fetch="https://source.codeaurora.org/quic/la/" 
+           revision="refs/tags/LA.UM.5.8.r1-02700-8x98.0" />
+
+<!-- Cardinal-AOSP starts -->
+
+  <!-- Include aosp and qcom repos -->
+  <include name="aosp.xml" />
+  <include name="qcom.xml" />
+  <!-- Repo's to replace/exclude -->
+  <include name="remove.xml" />
+
+  <!-- Bionic -->
+  <project name="bionic" path="bionic" remote="crd" revision="oreo-staging" />
+
+  <!-- Build System -->
+  <project name="build_kati" path="build/kati" remote="crd" />
+ 
+  <project name="build" path="build/make" remote="crd" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project name="build_soong" path="build/soong" remote="crd">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- External -->
+  <project name="external_libnfnetlink" path="external/libnfnetlink" remote="crd" revision="oreo-staging" />
+  <project name="external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="crd" revision="oreo-staging" />
+
+  <!-- External -->
+  <project name="manifest" path="manifest" remote="crd" />
+
+  <!-- system -->
+  <project name="system_vold" path="system/vold" remote="crd" revision="oreo-staging" />
+
+  <!-- Vendor -->
+  <project name="vendor_cardinal" path="vendor/cardinal" remote="crd" />
+<!-- Cardinal-AOSP end -->
+
+<!-- Misc Repo's for additional Compatibility -->
+  <!-- LineageOS -->
+  <project name="LineageOS/android_device_lineage_sepolicy" path="device/common/sepolicy" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="lineage-15.0" />
+
+</manifest>
