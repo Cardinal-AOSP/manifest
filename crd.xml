@@ -56,6 +56,7 @@
   <project name="manifest" path="manifest" remote="crd" />
 
   <!-- system -->
+  <project name="system_core" path="system/core" remote="crd" revision="oreo-staging" />
   <project name="system_vold" path="system/vold" remote="crd" revision="oreo-staging" />
 
   <!-- Vendor -->
