@@ -24,15 +24,16 @@
   <!-- Include aosp and qcom repos -->
   <include name="aosp.xml" />
   <include name="qcom.xml" />
-  <!-- Repo's to replace/exclude -->
+  <!-- Repo's to exclude -->
   <include name="remove.xml" />
 
   <!-- Bionic -->
-  <project name="bionic" path="bionic" remote="crd" revision="oreo-staging" />
-
+  <remove-project name="platform/bionic" />
+  <project name="bionic" path="bionic" remote="crd" />
   <!-- Build System -->
+  <remove-project name="platform/build/kati" />
   <project name="build_kati" path="build/kati" remote="crd" />
- 
+  <remove-project name="platform/build" />
   <project name="build" path="build/make" remote="crd" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -42,22 +43,38 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-
+  <remove-project name="platform/build/soong" />
   <project name="build_soong" path="build/soong" remote="crd">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- External -->
-  <project name="external_libnfnetlink" path="external/libnfnetlink" remote="crd" revision="oreo-staging" />
-  <project name="external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="crd" revision="oreo-staging" />
+  <remove-project name="platform/external/libnfnetlink" />
+  <project name="external_libnfnetlink" path="external/libnfnetlink" remote="crd" />
+  <remove-project name="platform/external/libnetfilter_conntrack" />
+  <project name="external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="crd" />
+  <remove-project name="platform/external/selinux" />
+  <project name="external_selinux" path="external/selinux" remote="crd" />
 
-  <!-- External -->
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+  <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
+
+  <!-- Manifest -->
   <project name="manifest" path="manifest" remote="crd" />
 
+  <!-- Apps -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="crd" />
+
   <!-- system -->
-  <project name="system_core" path="system/core" remote="crd" revision="oreo-staging" />
-  <project name="system_vold" path="system/vold" remote="crd" revision="oreo-staging" />
+  <remove-project name="platform/system/core" />
+  <project name="system_core" path="system/core" remote="crd"  />
+  <remove-project name="platform/system/vold" />
+  <project name="system_vold" path="system/vold" remote="crd" />
 
   <!-- Vendor -->
   <project name="vendor_cardinal" path="vendor/cardinal" remote="crd" />
@@ -65,13 +82,21 @@
 
 <!-- Misc Repo's for additional Compatibility -->
   <!-- LineageOS -->
-  <project name="LineageOS/android_device_lineage_sepolicy" path="device/common/sepolicy" remote="github" revision="lineage-15.0" />
-  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.0" />
+  <remove-project name="platform/hardware/ril" />
+  <project name="LineageOS/android_hardware_ril" path="hardware/ril" remote="github" revision="lineage-15.0" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="github" revision="lineage-15.0" />
+  <remove-project name="platform/hardware/qcom/bt" />
   <project name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="lineage-15.0" />
-  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="lineage-15.0" />
+  <remove-project name="platform/hardware/qcom/display" />
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="lineage-15.0" />
+  <remove-project name="platform/hardware/qcom/gps" />
   <project name="LineageOS/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="lineage-15.0"/>
+  <remove-project name="platform/hardware/qcom/media" />
   <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="lineage-15.0" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="lineage-15.0" />
 
 </manifest>

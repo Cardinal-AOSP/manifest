@@ -2,10 +2,11 @@
  <manifest>
 
 <!-- hardware -->
+  <project name="LineageOS/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="lineage-15.0-caf" />
   <project name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="github" revision="lineage-15.0-caf" />
+  <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="lineage-15.0-caf" />
 
 <!-- Vendor -->
-  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="qcom" />
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" remote="qcom" />
 
 </manifest>

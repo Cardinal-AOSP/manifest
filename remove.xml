@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <manifest>
-
- <!-- Repo's to Replace -->
-  <!-- Bionic -->
-  <remove-project name="platform/bionic" />
-
-  <!-- Build syatem -->
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/build/kati" />
-
-  <!-- External -->
-  <remove-project name="platform/external/libnfnetlink" />
-  <remove-project name="platform/external/libnetfilter_conntrack" />
-
-  <!-- Hardware -->
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/media" />
-
-  <!-- System -->
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/vold" />
   
  <!-- Repo's to exclude -->
   <remove-project name="device/asus/fugu" />
