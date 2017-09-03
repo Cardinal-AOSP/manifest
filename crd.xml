@@ -17,7 +17,7 @@
 
   <remote  name="qcom"
            fetch="https://source.codeaurora.org/quic/la/" 
-           revision="refs/tags/LA.UM.5.8.r1-02700-8x98.0" />
+           revision="refs/tags/LA.UM.6.4.r1-03200-8x98.0" />
 
 <!-- Cardinal-AOSP starts -->
 
@@ -71,6 +71,8 @@
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="crd" />
 
   <!-- system -->
+  <remove-project name="platform/system/bt" />
+  <project name="system_bt" path="system/bt" remote="crd"  />
   <remove-project name="platform/system/core" />
   <project name="system_core" path="system/core" remote="crd"  />
   <remove-project name="platform/system/vold" />
@@ -98,5 +100,6 @@
   <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="lineage-15.0" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_packages_apps_Jelly" path="packages/apps/Jelly" remote="github" revision="lineage-15.0" />
 
 </manifest>

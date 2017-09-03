@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <manifest>
+<!-- External -->
+  <project name="external_ant-wireless_ant-native" path="external/ant-wireless/ant-native" remote="crd" />
+  <project name="LineageOS/external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.0" />
+  <project name="platform/external/ant-wireless/ant-service" path="external/ant-wireless/ant-service" remote="qcom" />
 
 <!-- hardware -->
   <project name="LineageOS/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="lineage-15.0-caf" />
@@ -7,6 +11,8 @@
   <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="lineage-15.0-caf" />
 
 <!-- Vendor -->
+  <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" remote="qcom" />
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" remote="qcom" />
+  <project name="vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="crd" />
 
 </manifest>
