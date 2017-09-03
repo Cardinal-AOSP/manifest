@@ -57,6 +57,10 @@
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="crd" />
 
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+  <project name="frameworks_base" path="frameworks/base" remote="crd" />
+
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
