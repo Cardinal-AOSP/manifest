@@ -74,6 +74,10 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="crd" />
 
+  <!-- Providers -->
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="crd" />
+
   <!-- system -->
   <remove-project name="platform/system/bt" />
   <project name="system_bt" path="system/bt" remote="crd"  />
