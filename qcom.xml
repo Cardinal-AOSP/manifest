@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <manifest>
 <!-- External -->
-  <project name="external_ant-wireless_ant-native" path="external/ant-wireless/ant-native" remote="crd" />
-  <project name="LineageOS/external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.0" />
-  <project name="platform/external/ant-wireless/ant-service" path="external/ant-wireless/ant-service" remote="qcom" />
+  <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="crd" />
+  <project name="external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="crd" />
+  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="qcom" />
 
 <!-- hardware -->
   <project name="LineageOS/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="lineage-15.0-caf" />
