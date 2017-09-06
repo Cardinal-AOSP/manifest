@@ -30,6 +30,11 @@
   <!-- Bionic -->
   <remove-project name="platform/bionic" />
   <project name="bionic" path="bionic" remote="crd" />
+
+  <!-- Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="crd" />
+  
   <!-- Build System -->
   <remove-project name="platform/build/kati" />
   <project name="build_kati" path="build/kati" remote="crd" />
@@ -71,6 +76,8 @@
   <!-- Apps -->
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
+  <project name="packages_apps_Jelly" path="packages/apps/Jelly" remote="crd" />
+  <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="crd" />
 
@@ -78,7 +85,7 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="crd" />
 
-  <!-- system -->
+  <!-- System -->
   <remove-project name="platform/system/bt" />
   <project name="system_bt" path="system/bt" remote="crd"  />
   <remove-project name="platform/system/core" />
@@ -108,6 +115,5 @@
   <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="lineage-15.0" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="lineage-15.0" />
-  <project name="LineageOS/android_packages_apps_Jelly" path="packages/apps/Jelly" remote="github" revision="lineage-15.0" />
 
 </manifest>
