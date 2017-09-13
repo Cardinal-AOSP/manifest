@@ -67,16 +67,24 @@
   <project name="frameworks_base" path="frameworks/base" remote="crd" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <project name="hardware_interfaces" path="hardware/interfaces" remote="crd" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project name="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="crd" />
 
   <!-- Manifest -->
   <project name="manifest" path="manifest" remote="crd" />
 
   <!-- Apps -->
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="crd" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="crd" />
+  <project name="packages_apps_Jelly" path="packages/apps/Jelly" remote="crd" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
-  <project name="packages_apps_Jelly" path="packages/apps/Jelly" remote="crd" />
   <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="crd" />
@@ -98,8 +106,8 @@
 <!-- Cardinal-AOSP end -->
 
 <!-- Misc Repo's for additional Compatibility -->
-  <!-- LineageOS -->
   <project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.0" />
   <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.0" />
   <remove-project name="platform/hardware/ril" />
   <project name="LineageOS/android_hardware_ril" path="hardware/ril" remote="github" revision="lineage-15.0" />
@@ -115,5 +123,5 @@
   <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="lineage-15.0" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="lineage-15.0" />
-
+  <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-15.0" />
 </manifest>
