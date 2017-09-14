@@ -11,10 +11,10 @@
   <project name="external_tinycompress" path="external/tinycompress" remote="crd" />
 
 <!-- hardware -->
-  <project name="hardware_ril" path="hardware/ril-caf" remote="crd"  />
-  <project name="hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="crd" />
+  <project name="hardware_ril" path="hardware/ril-caf" remote="crd" revision="oreo-caf" />
+  <project name="hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="crd" revision="oreo-caf" />
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lineage-15.0" />
-  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="crd" />
+  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="crd" revision="oreo-caf" />
 
 <!-- Apps -->
   <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="qcom" />
@@ -24,5 +24,4 @@
   <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="github" revision="lineage-15.0" />
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" remote="qcom" />
   <project name="system_qcom" path="vendor/qcom/opensource/softap" remote="crd" />
-
 </manifest>
