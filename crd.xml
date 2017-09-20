@@ -63,8 +63,14 @@
   <project name="external_selinux" path="external/selinux" remote="crd" />
 
   <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project name="frameworks_av" path="frameworks/av" remote="crd" />
   <remove-project name="platform/frameworks/base" />
   <project name="frameworks_base" path="frameworks/base" remote="crd" />
+  <remove-project name="platform/frameworks/native" />
+  <project name="frameworks_native" path="frameworks/native" remote="crd" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="crd" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -97,6 +103,12 @@
   <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="crd" />
+
+  <!-- Services -->
+  <remove-project name="platform/packages/services/Telecomm" />
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="crd" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="crd" />
 
   <!-- Providers -->
   <remove-project name="platform/packages/providers/MediaProvider" />
