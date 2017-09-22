@@ -55,6 +55,8 @@
   </project>
 
   <!-- External -->
+  <remove-project name="platform/external/f2fs-tools" />
+  <project name="external_f2fs-tools" path="external/f2fs-tools" remote="crd" />
   <remove-project name="platform/external/libnfnetlink" />
   <project name="external_libnfnetlink" path="external/libnfnetlink" remote="crd" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
@@ -132,6 +134,7 @@
   <project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-15.0" />
   <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.0" />
   <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-15.0" />
   <remove-project name="platform/hardware/ril" />
   <project name="LineageOS/android_hardware_ril" path="hardware/ril" remote="github" revision="lineage-15.0" />
   <remove-project name="platform/hardware/qcom/bt" />
