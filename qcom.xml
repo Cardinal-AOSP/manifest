@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <manifest>
 <!-- QC-Common -->
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="crd" />
 
 <!-- External -->
   <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="crd" />
