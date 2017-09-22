@@ -98,6 +98,8 @@
   <remove-project name="platform/packages/apps/Gallery2" />
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="crd" />
   <project name="packages_apps_Jelly" path="packages/apps/Jelly" remote="crd" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crd" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
   <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
