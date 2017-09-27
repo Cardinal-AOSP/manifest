@@ -95,6 +95,8 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
   <project name="packages_apps_CardinalOTA" path="packages/apps/CardinalOTA" remote="crd" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="crd" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="crd" />
   <remove-project name="platform/packages/apps/Gallery2" />
