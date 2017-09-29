@@ -117,6 +117,8 @@
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="crd" />
 
   <!-- Providers -->
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="crd" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="crd" />
 
