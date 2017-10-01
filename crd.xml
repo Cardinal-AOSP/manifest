@@ -94,11 +94,17 @@
   <!-- Apps -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="crd" />
   <project name="packages_apps_CardinalOTA" path="packages/apps/CardinalOTA" remote="crd" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="crd" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="crd" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="crd" />
+  <remove-project name="platform/packages/apps/ExactCalculator" />
+  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="crd" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="crd" />
   <project name="packages_apps_Jelly" path="packages/apps/Jelly" remote="crd" />
@@ -106,6 +112,8 @@
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crd" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
+  <remove-project name="platform/packages/apps/Stk" />
+  <project name="packages_apps_Stk" path="packages/apps/Stk" remote="crd" />
   <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="crd" />
