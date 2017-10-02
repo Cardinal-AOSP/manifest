@@ -111,6 +111,8 @@
   <project name="packages_apps_Jelly" path="packages/apps/Jelly" remote="crd" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crd" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="crd" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
   <remove-project name="platform/packages/apps/Stk" />
