@@ -4,7 +4,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-8.0.0_r11"
+  <default revision="refs/tags/android-8.0.0_r17"
            remote="aosp"
            sync-j="4" />
 
@@ -17,7 +17,7 @@
 
   <remote  name="qcom"
            fetch="https://source.codeaurora.org/quic/la/" 
-           revision="refs/tags/LA.UM.6.4.r1-03200-8x98.0" />
+           revision="refs/tags/LA.UM.6.4.r1-03800-8x98.0" />
 
 <!-- Cardinal-AOSP starts -->
 
