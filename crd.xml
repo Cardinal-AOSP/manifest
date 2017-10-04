@@ -97,6 +97,8 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="crd" />
   <project name="packages_apps_CardinalOTA" path="packages/apps/CardinalOTA" remote="crd" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="crd" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="crd" />
   <remove-project name="platform/packages/apps/Dialer" />
