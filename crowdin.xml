@@ -7,8 +7,14 @@
   <remote  name="crd"
            fetch="https://github.com/Cardinal-AOSP/" />
 
+  <!-- Crowdin -->
+  <project name="crowdin" path="crowdin" remote="crd" revision="master" />
+
   <!-- Frameworks -->
   <project name="frameworks_base" path="frameworks/base" remote="crd" />
+
+  <!-- Manifest -->
+  <project name="manifest" path="manifest" remote="crd" />
 
   <!-- Apps -->
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
