@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <manifest>
+  <default revision="oreo"
+           remote="crd"
+           sync-j="4" />
+
+  <remote  name="crd"
+           fetch="https://github.com/Cardinal-AOSP/" />
+
+  <!-- Frameworks -->
+  <project name="frameworks_base" path="frameworks/base" remote="crd" />
+
+  <!-- Apps -->
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
+  <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
+
+  <!-- Providers -->
+  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="crd" />
+</manifest>
