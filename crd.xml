@@ -63,6 +63,8 @@
   <project name="external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="crd" />
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="crd" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="crd" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
