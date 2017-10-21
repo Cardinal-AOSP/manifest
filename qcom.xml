@@ -10,6 +10,11 @@
   <remove-project name="platform/external/tinycompress" />
   <project name="external_tinycompress" path="external/tinycompress" remote="crd" />
 
+<!--  HALS -->
+  <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" revision="oreo-caf-8952" remote="crd" />
+  <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" revision="oreo-caf-8952" remote="crd" />
+  <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" revision="oreo-caf-8952" remote="crd" />
+
 <!-- hardware -->
   <project name="hardware_ril" path="hardware/ril-caf" remote="crd" revision="oreo-caf" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="crd" revision="oreo-caf" />
