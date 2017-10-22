@@ -11,9 +11,15 @@
   <project name="external_tinycompress" path="external/tinycompress" remote="crd" />
 
 <!--  HALS -->
+<!-- MSM8952/56 -->
   <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" revision="oreo-caf-8952" remote="crd" />
   <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" revision="oreo-caf-8952" remote="crd" />
   <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" revision="oreo-caf-8952" remote="crd" />
+<!-- MSM8996 -->
+  <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="oreo-caf-8996" remote="crd" />
+  <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="oreo-caf-8996" remote="crd" />
+  <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" revision="oreo-caf-8996" remote="crd" />
+<!-- HALS -->
 
 <!-- hardware -->
   <project name="hardware_ril" path="hardware/ril-caf" remote="crd" revision="oreo-caf" />
