@@ -144,6 +144,8 @@
   <project name="system_bt" path="system/bt" remote="crd"  />
   <remove-project name="platform/system/core" />
   <project name="system_core" path="system/core" remote="crd"  />
+  <remove-project name="platform/system/media" />
+  <project name="system_media" path="system/media" remote="crd"  />
   <remove-project name="platform/system/nfc" />
   <project name="system_nfc" path="system/nfc" remote="crd"  />
   <remove-project name="platform/system/vold" />
