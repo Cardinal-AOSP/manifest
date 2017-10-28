@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <manifest>
-<!-- QC-Common -->
+<!-- qc-common & qc-sepolicy -->
   <project name="device_qcom_common" path="device/qcom/common" remote="crd" />
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="crd" />
 
 <!-- External -->
   <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="crd" />
