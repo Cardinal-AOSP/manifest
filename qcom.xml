@@ -35,5 +35,6 @@
   <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="crd" />
   <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="crd" />
   <project name="vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="crd" />
+  <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" remote="qcom" />
   <project name="system_qcom" path="vendor/qcom/opensource/softap" remote="crd" />
 </manifest>
