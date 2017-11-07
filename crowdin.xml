@@ -17,6 +17,7 @@
   <project name="manifest" path="manifest" remote="crd" />
 
   <!-- Apps -->
+  <project name="packages_apps_CardinalOTA" path="packages/apps/CardinalOTA" remote="crd" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
   <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
 
