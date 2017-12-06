@@ -4,13 +4,13 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-8.0.0_r32"
+  <default revision="refs/tags/android-8.1.0_r1"
            remote="aosp"
            sync-j="4" />
 
   <remote  name="crd"
            fetch="https://github.com/Cardinal-AOSP/"
-           revision="oreo" />
+           revision="oreo-mr1" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -55,22 +55,17 @@
   </project>
 
   <!-- External -->
-  <remove-project name="platform/external/f2fs-tools" />
-  <project name="external_f2fs-tools" path="external/f2fs-tools" remote="crd" />
-  <remove-project name="platform/external/libnfnetlink" />
-  <project name="external_libnfnetlink" path="external/libnfnetlink" remote="crd" />
-  <remove-project name="platform/external/libnetfilter_conntrack" />
-  <project name="external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="crd" />
+  <!--<remove-project name="platform/external/f2fs-tools" />
+  <project name="external_f2fs-tools" path="external/f2fs-tools" remote="crd" />-->
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="crd" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
-  <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="crd" />
+  <project name="external_ntfs-3g" path="external/ntfs-3g" remote="crd" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project name="frameworks_av" path="frameworks/av" remote="crd" />
   <remove-project name="platform/frameworks/base" />
-  <project name="frameworks_base" path="frameworks/base" remote="crd" />
+  <project name="frameworks_base" path="frameworks/base" remote="crd" />-->
   <remove-project name="platform/frameworks/native" />
   <project name="frameworks_native" path="frameworks/native" remote="crd" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -83,12 +78,18 @@
   <project name="hardware_libhardware" path="hardware/libhardware" remote="crd" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <project name="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="crd" />
+  <remove-project name="platform/hardware/ril" />
+  <project name="hardware_ril" path="hardware/ril" remote="crd" />
   <remove-project name="platform/hardware/qcom/audio" />
   <project name="hardware_qcom_audio" path="hardware/qcom/audio/default" remote="crd" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="crd" />
   <remove-project name="platform/hardware/qcom/display" />
   <project name="hardware_qcom_display" path="hardware/qcom/display" remote="crd" />
   <remove-project name="platform/hardware/qcom/media" />
   <project name="hardware_qcom_media" path="hardware/qcom/media" remote="crd" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="crd" />
   
   <!-- Manifest -->
   <project name="manifest" path="manifest" remote="crd" />
@@ -96,36 +97,26 @@
   <!-- Apps -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
-  <remove-project name="platform/packages/apps/Calendar" />
+  <!--<remove-project name="platform/packages/apps/Calendar" />
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="crd" />
   <remove-project name="platform/packages/apps/Camera2" />
-  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="crd" />
+  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="crd" />-->
   <project name="packages_apps_CardinalOTA" path="packages/apps/CardinalOTA" remote="crd" />
-  <remove-project name="platform/packages/apps/Contacts" />
-  <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="crd" />
-  <remove-project name="platform/packages/apps/DeskClock" />
-  <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="crd" />
+  <!--<remove-project name="platform/packages/apps/DeskClock" />
+  <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="crd" />-->
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="crd" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="crd" />
-  <remove-project name="platform/packages/apps/ExactCalculator" />
-  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="crd" />
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="crd" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="crd" />
   <project name="packages_apps_Jelly" path="packages/apps/Jelly" remote="crd" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crd" />
-  <remove-project name="platform/packages/apps/Messaging" />
-  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="crd" />
+  <!--<remove-project name="platform/packages/apps/Launcher3" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crd" />-->
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
-  <remove-project name="platform/packages/apps/Stk" />
-  <project name="packages_apps_Stk" path="packages/apps/Stk" remote="crd" />
   <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="crd" />
 
   <!-- Services -->
   <remove-project name="platform/packages/services/Telecomm" />
@@ -160,13 +151,4 @@
 <!-- Misc Repo's for additional Compatibility -->
   <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.0" />
   <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.0" />
-  <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-15.0" />
-  <remove-project name="platform/hardware/ril" />
-  <project name="LineageOS/android_hardware_ril" path="hardware/ril" remote="github" revision="lineage-15.0" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <project name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="lineage-15.0" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <project name="LineageOS/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="lineage-15.0"/>
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="lineage-15.0" />
 </manifest>

@@ -20,6 +20,7 @@
   <remove-project name="device/generic/mini-emulator-x86" />
   <remove-project name="device/generic/mini-emulator-x86_64" />
   <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/accessory/arduino" />
@@ -30,7 +31,11 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
   <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/huawei/angler" />
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead" />
@@ -63,10 +68,8 @@
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/Phone" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
-  <remove-project name="platform/packages/apps/RetailDemo" />
   <remove-project name="platform/packages/apps/SpareParts" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
