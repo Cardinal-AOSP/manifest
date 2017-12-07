@@ -14,7 +14,7 @@ To get started with Cardinal-AOSP, you'll need to get familiar with
 To initialize your local repository, use this command:
 
 
-	repo init -u git://github.com/Cardinal-AOSP/manifest.git -b oreo -m crd.xml
+	repo init -u git://github.com/Cardinal-AOSP/manifest.git -b oreo-mr1 -m crd.xml
 
 
 Time to sync the source! [I love this part]:
