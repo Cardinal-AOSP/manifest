@@ -84,6 +84,8 @@
   <project name="hardware_qcom_audio" path="hardware/qcom/audio/default" remote="crd" />
   <remove-project name="platform/hardware/qcom/bt" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="crd" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <project name="hardware_qcom_camera" path="hardware/qcom/camera" remote="crd" />
   <remove-project name="platform/hardware/qcom/display" />
   <project name="hardware_qcom_display" path="hardware/qcom/display" remote="crd" />
   <remove-project name="platform/hardware/qcom/gps" />
