@@ -33,9 +33,8 @@
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="crd" revision="oreo-mr1-caf" />
 
 <!-- Apps -->
-<!-->
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="crd" revision="oreo" />
--->
+
 
 <!-- Vendor -->
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="crd" />
