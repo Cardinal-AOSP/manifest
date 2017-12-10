@@ -101,9 +101,9 @@
   <!-- Apps -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="crd" />
-  <!--<remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Calendar" />
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="crd" />
-  <remove-project name="platform/packages/apps/Camera2" />
+  <!--<remove-project name="platform/packages/apps/Camera2" />
   <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="crd" />-->
   <project name="packages_apps_CardinalOTA" path="packages/apps/CardinalOTA" remote="crd" />
   <!--<remove-project name="platform/packages/apps/DeskClock" />
@@ -115,8 +115,8 @@
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="crd" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="crd" />
-  <!--<remove-project name="platform/packages/apps/Launcher3" />
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crd" />-->
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crd" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
   <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
