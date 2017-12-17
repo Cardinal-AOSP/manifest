@@ -57,9 +57,11 @@
   <!-- External -->
   <!--<remove-project name="platform/external/f2fs-tools" />
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="crd" />-->
+  <remove-project name="platform/external/mksh" />
+  <project name="external_mksh" path="external/mksh" remote="crd" /> 
+  <project name="external_ntfs-3g" path="external/ntfs-3g" remote="crd" />   
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="crd" />
-  <project name="external_ntfs-3g" path="external/ntfs-3g" remote="crd" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -70,6 +72,8 @@
   <project name="frameworks_native" path="frameworks/native" remote="crd" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="crd" />
+  <remove-project name="platform/frameworks/support" />
+  <project name="frameworks_support" path="frameworks/support" remote="crd" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
