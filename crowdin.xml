@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <manifest>
-  <default revision="oreo"
+  <default revision="oreo-mr1"
            remote="crd"
-           sync-j="4" />
+           sync-j="8" />
 
   <remote  name="crd"
            fetch="https://github.com/Cardinal-AOSP/" />
