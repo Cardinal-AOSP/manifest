@@ -25,6 +25,11 @@
   <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="oreo-mr1-caf-8996" remote="crd" />
   <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" revision="oreo-mr1-caf-8996" remote="crd" />
 -->
+<!-- MSM8998 -->
+  <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" revision="oreo-mr1-caf-8998" remote="crd" />
+  <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8998" revision="oreo-mr1-caf-8998" remote="crd" />
+  <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8998" revision="oreo-mr1-caf-8998" remote="crd" />
+
 <!-- HALS -->
 
 <!-- hardware -->
