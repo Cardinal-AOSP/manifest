@@ -71,6 +71,8 @@
   <project name="frameworks_native" path="frameworks/native" remote="crd" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="crd" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="crd" />
   <remove-project name="platform/frameworks/support" />
   <project name="frameworks_support" path="frameworks/support" remote="crd" />
 
