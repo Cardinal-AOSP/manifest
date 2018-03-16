@@ -19,6 +19,10 @@
   <project name="Citrus-CAF/hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" revision="o8x-8952" remote="github" />
   <project name="Citrus-CAF/hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" revision="o8x-8952" remote="github" />
   <project name="Citrus-CAF/hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" revision="o8x-8952" remote="github" />
+<!-- MSM8974 -->
+  <project name="Citrus-CAF/hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" revision="o8x-8974" remote="github" />
+  <project name="Citrus-CAF/hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="o8x-8974" remote="github" />
+  <project name="Citrus-CAF/hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="o8x-8974" remote="github" />
 <!-- MSM8996 -->
   <project name="Citrus-CAF/hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="o8x-8996" remote="github" />
   <project name="Citrus-CAF/hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="o8x-8996" remote="github" />
