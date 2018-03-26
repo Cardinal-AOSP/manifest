@@ -54,9 +54,13 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Development -->
+  <remove-project name="platform/development" />
+  <project name="external_development" path="external/development" remote="crd" />
+
   <!-- External -->
-  <!--<remove-project name="platform/external/f2fs-tools" />
-  <project name="external_f2fs-tools" path="external/f2fs-tools" remote="crd" />-->
+  <remove-project name="platform/external/f2fs-tools" />
+  <project name="external_f2fs-tools" path="external/f2fs-tools" remote="crd" />
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="crd" />
   <remove-project name="platform/external/toybox" />
