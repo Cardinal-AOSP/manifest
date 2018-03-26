@@ -56,7 +56,7 @@
 
   <!-- Development -->
   <remove-project name="platform/development" />
-  <project name="external_development" path="external/development" remote="crd" />
+  <project name="development" path="development" remote="crd" />
 
   <!-- External -->
   <remove-project name="platform/external/f2fs-tools" />
