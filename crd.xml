@@ -17,7 +17,7 @@
 
   <remote  name="qcom"
            fetch="https://source.codeaurora.org/quic/la/"
-           revision="refs/tags/LA.UM.6.4.r1-06900-8x98.0" />
+           revision="refs/tags/LA.UM.6.4.r1-07600-8x98.0" />
 
 <!-- Cardinal-AOSP starts -->
 
