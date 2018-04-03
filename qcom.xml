@@ -38,6 +38,8 @@
 <!-- Apps -->
   <project name="Citrus-CAF/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" revision="o8x" remote="github"/>
 
+<!-- System -->
+  <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" remote="github" revision="lineage-15.1" />
 
 <!-- Vendor -->
   <project name="Citrus-CAF/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" revision="o8x" remote="github" />
