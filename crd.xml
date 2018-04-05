@@ -140,6 +140,8 @@
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="crd" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="crd" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="crd" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="crd" />
   <project name="packages_apps_Wings" path="packages/apps/Wings" remote="crd" />
