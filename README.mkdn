@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Cardinal-AOSP/manifest/n7/crd.png">
+<img src="https://github.com/Cardinal-AOSP/manifest/blob/b3ca0401df9396f04a31b5fb52823c014c04568a/crd.png">
 
 Cardinal-AOSP
 ===================
