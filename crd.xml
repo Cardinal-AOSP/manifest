@@ -165,7 +165,7 @@
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="crd" />
 
   <!-- prebuilts -->
-  <project name="prebuilts_clang_host_linux-x86_clang-4667116" path="prebuilts/clang/host/linux-x86/clang-4667116" remote="crd" />
+  <project name="prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="crd" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
