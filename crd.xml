@@ -176,6 +176,8 @@
   <project name="system_extras" path="system/extras" remote="crd" />
   <remove-project name="platform/system/media" />
   <project name="system_media" path="system/media" remote="crd" />
+  <remove-project name="platform/system/netd" />
+  <project name="system_netd" path="system/netd" remote="crd" /> 
   <remove-project name="platform/system/nfc" />
   <project name="system_nfc" path="system/nfc" remote="crd" />
   <remove-project name="platform/system/sepolicy" />
