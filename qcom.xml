@@ -38,6 +38,8 @@
   <project name="hardware_ril" path="hardware/ril-caf" remote="crd" revision="oreo-mr1-caf" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="crd" revision="oreo-mr1-caf" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="crd" revision="oreo-mr1-caf" />
+  <project name="hardware_qcom_vr" path="hardware/qcom/vr" remote="crd" revision="oreo-mr1" />
+  <project name="hardware_qcom_thermal" path="hardware/qcom/thermal" remote="crd" revision="oreo-mr1" />
 
 <!-- Apps -->
   <project name="Citrus-CAF/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" revision="o8x" remote="github"/>
