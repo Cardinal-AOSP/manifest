@@ -182,6 +182,8 @@
   <project name="system_nfc" path="system/nfc" remote="crd" />
   <remove-project name="platform/system/sepolicy" />
   <project name="system_sepolicy" path="system/sepolicy" remote="crd" />
+  <remove-project name="platform/system/update_engine" />
+  <project name="system_update_engine" path="system/update_engine" remote="crd" />
   <remove-project name="platform/system/vold" />
   <project name="system_vold" path="system/vold" remote="crd" />
 
