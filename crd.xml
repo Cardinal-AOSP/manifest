@@ -159,6 +159,8 @@
   <!-- Providers -->
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
   <project name="packages_providers_BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" remote="crd" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <project name="packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="crd" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="crd" />
   <remove-project name="platform/packages/providers/MediaProvider" />
