@@ -131,6 +131,7 @@
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="crd" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="crd" />
+  <project name="packages_apps_DSPManager" path="packages/apps/DSPManager" remote="crd" />
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="crd" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="crd" />
@@ -200,6 +201,5 @@
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-15.1" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-8.1" />
-  <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-8.1" />
 
 </manifest>
