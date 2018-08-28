@@ -17,7 +17,7 @@
 
   <remote  name="qcom"
            fetch="https://source.codeaurora.org/quic/la/"
-           revision="refs/tags/LA.UM.6.4.r1-07600-8x98.0" />
+           revision="refs/tags/LA.UM.6.4.r1-10300-8x98.0" />
 
 <!-- Cardinal-AOSP starts -->
 
@@ -180,7 +180,7 @@
   <remove-project name="platform/system/media" />
   <project name="system_media" path="system/media" remote="crd" />
   <remove-project name="platform/system/netd" />
-  <project name="system_netd" path="system/netd" remote="crd" /> 
+  <project name="system_netd" path="system/netd" remote="crd" />
   <remove-project name="platform/system/nfc" />
   <project name="system_nfc" path="system/nfc" remote="crd" />
   <remove-project name="platform/system/sepolicy" />
