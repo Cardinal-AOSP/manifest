@@ -8,10 +8,10 @@ Getting Started
 ---------------
 
 To get started with Cardinal-AOSP, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
+[Git and Repo](https://source.android.com/setup/develop/).
 
 
-To initialize your local repository, use this command:
+To initialise your local repository, use this command:
 
 
 	repo init -u git://github.com/Cardinal-AOSP/manifest.git -b oreo-mr1 -m crd.xml
