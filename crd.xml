@@ -195,6 +195,7 @@
 <!-- Cardinal-AOSP end -->
 
 <!-- Misc Repo's for additional Compatibility -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="lineage-15.1" />
