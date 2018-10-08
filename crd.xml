@@ -61,6 +61,8 @@
   <!-- External -->
   <remove-project name="platform/external/f2fs-tools" />
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="crd" />
+  <remove-project name="platform/external/libtextclassifier" />
+  <project name="external_libtextclassifier" path="external/libtextclassifier" remote="crd" />
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="crd" />
   <remove-project name="platform/external/toybox" />
