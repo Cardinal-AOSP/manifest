@@ -27,6 +27,10 @@
   <!-- Repo's to exclude -->
   <include name="remove.xml" />
 
+  <!-- Art -->
+  <remove-project name="platform/art" />
+  <project name="art" path="art" remote="crd" />
+
   <!-- Bionic -->
   <remove-project name="platform/bionic" />
   <project name="bionic" path="bionic" remote="crd" />
